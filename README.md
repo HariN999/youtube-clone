@@ -30,8 +30,6 @@ A simple YouTube-like interface built using HTML, CSS, and JavaScript. This proj
 - **CSS**: Styling and layout.
 - **JavaScript**: Interactive sidebar navigation.
 
-## Screenshots
-![YouTube Clone Screenshot](image.png)
 
 ## Contributing
 Feel free to fork the repository and submit pull requests for improvements.
