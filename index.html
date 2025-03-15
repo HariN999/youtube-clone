@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu" id="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a href="https://www.youtube.com/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1024px-YouTube_Logo_2017.svg.png" alt="YouTube Logo">
+        </a>
+    </div>
+     
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <form action="https://www.youtube.com/results" method="get">
+        <input type="text" name="search_query" placeholder="Search">
+        <button type="submit">&#128269;</button>
+    </div>
+
+    <!-- User Actions -->
+    <div class="user-actions">
+      <button>Upload</button>
+      <button>Sign In</button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Sidebar (Hidden by Default) -->
+    <aside class="sidebar" id="sidebar">
+      <nav>
+        <ul>
+            <li><a href="#">🏠 Home</a></li>
+            <li><a href="#">🔥 Trending</a></li>
+            <li><a href="#">🎥 Subscriptions</a></li>
+            <li><a href="#">📚 Library</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Video Grid -->
+    <section class="video-grid">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/XJouyK8geAE?si=7BOgAtDhYZqkdhms"></iframe>
+        <p>Video 1</p>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/uvX4k_3Cmvs?si=YnU4fxzanDVEH8AI"></iframe>
+        <p>Video 2</p>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/zSFABWe9lSg?si=Zz5dG6zkurymTzNQ"></iframe>
+        <p>Video 3</p>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/lNKMBbMejFs?si=MMiKTRs_hhwEEn0F"></iframe>
+        <p>Video 4</p>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/MPYlxeG-8_w?si=4bjQ2XXP44Tyjeqs"></iframe>
+        <p>Video 5</p>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/pPZF6zAwC5U?si=h69eRo2E9_Wxgu5z"></iframe>
+        <p>Video 6</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2023 YouTube Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
